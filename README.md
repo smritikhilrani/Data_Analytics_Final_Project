@@ -10,18 +10,18 @@ Skin cancer is one of the most common types of cancer worldwide. Well, some stud
  
  ### Files
  ##### Dataset 
-[ISIC Challenge 2019](https://challenge.isic-archive.com/data/#2019) data files  
-**Images folder** : 25,331 metadata
+[ISIC Challenge 2019](https://isic-challenge-data.s3.amazonaws.com/2019/ISIC_2019_Training_Metadata.csv) : data files  
+[Images folder](https://isic-challenge-data.s3.amazonaws.com/2019/ISIC_2019_Training_Input.zip) : 25,331 metadata
 
 1. data_prep
-2. model 1
-3. model 2 : binary classification
-4. model 3 : multi-class classification
-5. visualisation
+Model
+3. model 1
+4. model 2 : binary classification
+5. model 3 : multi-class classification
+6. visualisation
 
 
 ### Conclusion
-<p align="center">
 <img width="518" alt="Screenshot 2022-12-20 at 5 58 10 PM" src="https://user-images.githubusercontent.com/114943213/208723200-06c752a1-9813-473a-8603-dceb2d3fd8d6.png"> 
 
 1. By analyzing images of lesions on the skin, we developed a technique for quickly
