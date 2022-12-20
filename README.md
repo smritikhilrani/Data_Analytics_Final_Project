@@ -9,7 +9,6 @@ Skin cancer is one of the most common types of cancer worldwide. Well, some stud
 <img width="779" alt="image" src="https://user-images.githubusercontent.com/114943213/208715943-66cce71f-8d0e-4c0b-a544-9984143badb7.png">
  
  ### Files
- ##### Dataset 
 [ISIC Challenge 2019](https://isic-challenge-data.s3.amazonaws.com/2019/ISIC_2019_Training_Metadata.csv) : data files  
 [Images folder](https://isic-challenge-data.s3.amazonaws.com/2019/ISIC_2019_Training_Input.zip) : 25,331 metadata
 
