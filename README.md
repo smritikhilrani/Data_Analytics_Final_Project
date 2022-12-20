@@ -13,13 +13,8 @@ Skin cancer is one of the most common types of cancer worldwide. Well, some stud
 [ISIC Challenge 2019](https://isic-challenge-data.s3.amazonaws.com/2019/ISIC_2019_Training_Metadata.csv) : data files  
 [Images folder](https://isic-challenge-data.s3.amazonaws.com/2019/ISIC_2019_Training_Input.zip) : 25,331 metadata
 
-1. data_prep
-Model
-3. model 1
-4. model 2 : binary classification
-5. model 3 : multi-class classification
-6. visualisation
-
+### Model Iterations
+As part of data-preprocessing the main challenge was to balance the data since the count of different types of cancer ranged b/w 200 - 4500. In the first iteration, we resampled the data to 4000 and the model was 85% accurate but the predictions were low, which shows that there is a problem of overfitting. In another iteration, we tried to solve the problem without balancing the target variable ie, the images in this case. Finally, with grouping some of the types into 3 multiclass than 6, the accuracy improved w/o the problem of overfitting. 
 
 ### Conclusion
 <img width="518" alt="Screenshot 2022-12-20 at 5 58 10 PM" src="https://user-images.githubusercontent.com/114943213/208723200-06c752a1-9813-473a-8603-dceb2d3fd8d6.png"> 
